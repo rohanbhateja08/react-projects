@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Refresher</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <meta charset="UTF-8" />
+    <!-- defer tag makes sure the script is loaded after the html document has been read and parsed -->
+    <!-- for Modern JavaScript we use type attribute instead of module, to make this script as a module which can be used into other files, from a.js to b.js -->
+    <!-- this (type="module") unlocks *import* syntax which import script a to bs -->
+    <!-- *export* is used to export something from one js file which will be used in another js file using the import tag -->
+    <script src="assets/scripts/app.js"></script>
+    <!-- you will get CORS error when add the type="module" attribute in the src tag if html file is browsed through local, as  -->
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/images/js-logo-xs.png" alt="JavaScript logo" />
+      <h1>JavaScript Refresher</h1>
+    </header>
+
+    <ul>
+      <li>Base Syntax & Rules</li>
+      <li>Variables, Values & Operators</li>
+      <li>Functions</li>
+      <li>Objects</li>
+      <li>Arrays</li>
+      <li>Control Structures</li>
+      <li>Browser APIs & The DOM</li>
+      <li>Essential Features Used By React</li>
+      <li>Tricky Parts</li>
+    </ul>
+  </body>
+</html>
