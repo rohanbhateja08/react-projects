@@ -1,4 +1,3 @@
-//Winning combinations
 export const WINNING_COMBINATIONS = [
     [
       { row: 0, column: 0 },
